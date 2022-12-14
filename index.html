@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button type="button" onclick="blue()">blue</button>
+    <button type="button" onclick="white()">white</button>
+    <button type="button" onclick="orange()">purple</button>
+    <button type="button" onclick="green()">green</button>
+    <p>add any ring to flow your croser</p>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="Wcursor"></div>
+    <div class="Wcursor2"></div>
+    <div class="Ocursor"></div>
+    <div class="Ocursor2"></div>
+    <div class="Gcursor"></div>
+    <div class="Gcursor2"></div>
+
+  <script>
+    function blue(){
+    var cursor = document.querySelector(".Wcursor");
+    var cursor2 = document.querySelector(".Wcursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    })};
+ 
+    function white(){
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    })};
+ 
+    function orange(){
+    var cursor = document.querySelector(".Ocursor");
+    var cursor2 = document.querySelector(".Ocursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    })};
+
+    function green(){
+    var cursor = document.querySelector(".Gcursor");
+    var cursor2 = document.querySelector(".Gcursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    })};
+  </script>
+    
+</body>
+</html>

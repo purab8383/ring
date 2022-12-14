@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+  color: #fff;
+}
+
+.cursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 8px solid #c6c6c6;
+    border-radius: 50%;
+    left: 650px;
+    top: 500px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .25s;
+  }
+  
+  .cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #c6c6c6;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .45s;
+  }
+  
+.Wcursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #0800ff;
+    border-radius: 50%;
+    left: 600px;
+    top: 500px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .20s;
+  }
+  
+  .Wcursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #1900ff;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .35s;
+  }
+  
+  
+.Ocursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #b300ff;
+    border-radius: 50%;
+    left: 550px;
+    top: 500px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+  }
+  
+  .Ocursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #8c00ff;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .30s;
+  }
+  
+  
+.Gcursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #15ff00;
+    border-radius: 50%;
+    left: 500px;;
+    top: 500px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+  }
+  
+  .Gcursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #33ff00;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .40s;
+  }
+  
